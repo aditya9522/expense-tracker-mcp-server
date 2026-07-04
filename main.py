@@ -93,7 +93,6 @@ def check_budget(month: str):
     return alerts
 
 
-
 if __name__ == "__main__":
     # mcp.run()   # Local mcp server
-    mcp.run(transport="http", host="0.0.0.0", port=8000)            # Remote mcp server for deployment
+    mcp.run(transport="http", host="0.0.0.0", port=8000)      # Remote mcp server for deployment
